@@ -1,0 +1,19 @@
+.flex{
+	display: flex;
+}
+.main{
+	margin: 100px 100px;
+}
+.dirt{
+	height: 100px;
+	width: 200px;
+	background-image: url(dirt.svg);
+	margin-left: 50px;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+.krot{
+	position: absolute;
+	width: 150px;
+	z-index: 1;
+}
